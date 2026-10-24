@@ -20,4 +20,4 @@ First public release. Press play on your character.
 - **Slash commands**: `/thespian` (aliases `/rpe`, `/rpemotes`), `options`, `new`, `scale`, `reset`, `minimap`.
 - Draggable, screen-clamped main window that remembers its position; closes with Esc.
 - Custom artwork: addon icon and minimap icon.
-- Single download for **Retail 12.0, Forever, Classic Era (Hardcore / Seasonal), TBC Classic Anniversary and Mists of Pandaria Classic**.
+- Single download for **Retail, Forever, Classic Era (Hardcore / Seasonal), TBC Classic Anniversary and Mists of Pandaria Classic**.
