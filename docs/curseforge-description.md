@@ -1,4 +1,4 @@
-![Thespian](https://raw.githubusercontent.com/YOUR_GITHUB_USER/Thespian/main/docs/banner.png)
+![Thespian](https://raw.githubusercontent.com/WickedHanschen/Thespian/main/docs/banner.png)
 
 # Thespian: the emote soundboard for your roleplay
 
