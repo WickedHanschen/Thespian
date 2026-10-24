@@ -87,9 +87,6 @@ Open them from the **Options** button, the minimap button (right-click), `/thesp
 
 A golden theatre mask on your minimap. Left-click opens the soundboard, right-click opens the options, drag to reposition. It also works with square minimaps, and on Retail you'll find Thespian in the addon compartment too.
 
-<!--
-SCREENSHOTS: add your own in docs/screenshots/ and uncomment.
-
 ## Screenshots
 
 | The soundboard | The emote builder |
@@ -99,7 +96,6 @@ SCREENSHOTS: add your own in docs/screenshots/ and uncomment.
 | Options | Minimap button |
 |---|---|
 | ![Options](docs/screenshots/options.png) | ![Minimap](docs/screenshots/minimap.png) |
--->
 
 ## Installation
 
