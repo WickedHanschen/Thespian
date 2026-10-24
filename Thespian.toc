@@ -2,6 +2,7 @@
 ## Title: Thespian
 ## Notes: The emote soundboard for your roleplay. One-click emotes and lines, plus your own custom buttons.
 ## Version: @project-version@
+## X-Curse-Project-ID: 1763387
 ## Category: Roleplay
 ## IconTexture: Interface\AddOns\Thespian\Media\Icon
 ## SavedVariables: ThespianDB
