@@ -1,0 +1,10 @@
+## Interface: 120007, 120005, 120001, 120000, 50504, 50503, 20505, 20504, 11509, 11508, 11507
+## Title: Thespian
+## Notes: The emote soundboard for your roleplay. One-click emotes and lines, plus your own custom buttons.
+## Version: @project-version@
+## Category: Roleplay
+## IconTexture: Interface\AddOns\Thespian\Media\Icon
+## SavedVariables: ThespianDB
+## AddonCompartmentFunc: Thespian_OnAddonCompartmentClick
+
+Thespian.lua
