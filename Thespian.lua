@@ -1,7 +1,7 @@
 --[[---------------------------------------------------------------------------
   Thespian
   One-click roleplay emotes with support for custom emotes.
-  Works on Retail, Classic Era / Hardcore / Seasonal, Anniversary and MoP Classic.
+  Works on Retail, Forever. Classic Era / Hardcore / Seasonal, Anniversary and MoP Classic.
   Slash commands: /thespian  (aliases: /rpe, /rpemotes)
 ---------------------------------------------------------------------------]]--
 
