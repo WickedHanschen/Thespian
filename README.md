@@ -113,6 +113,7 @@ SCREENSHOTS: add your own in docs/screenshots/ and uncomment.
 | Game version | Folder |
 |---|---|
 | Retail | `World of Warcraft/_retail_/Interface/AddOns/` |
+| Forever | `World of Warcraft/_forever_/Interface/AddOns/` |
 | Classic Era / Hardcore / Seasonal | `World of Warcraft/_classic_era_/Interface/AddOns/` |
 | TBC Classic Anniversary | `World of Warcraft/_anniversary_/Interface/AddOns/` |
 | Mists of Pandaria Classic | `World of Warcraft/_classic_/Interface/AddOns/` |
