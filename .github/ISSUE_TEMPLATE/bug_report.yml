@@ -8,6 +8,7 @@ body:
       label: Game version
       options:
         - Retail
+        - Forever
         - Classic Era / Hardcore / Seasonal
         - TBC Classic Anniversary
         - Mists of Pandaria Classic
