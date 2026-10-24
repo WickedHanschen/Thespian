@@ -1,0 +1,40 @@
+name: Bug report
+description: Something isn't working as expected
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: flavor
+    attributes:
+      label: Game version
+      options:
+        - Retail
+        - Classic Era / Hardcore / Seasonal
+        - TBC Classic Anniversary
+        - Mists of Pandaria Classic
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Thespian version
+      placeholder: "e.g. 1.0.0 (shown in the AddOns list)"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Lua error (if any)
+      description: Paste the text from the error popup or BugSack.
+      render: text
+  - type: textarea
+    id: other
+    attributes:
+      label: Other addons
+      description: Anything that might interact (UI replacements, minimap addons, chat addons)?
