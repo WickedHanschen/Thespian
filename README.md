@@ -14,8 +14,8 @@
 <p align="center">
   <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-gold">
   <img alt="Retail" src="https://img.shields.io/badge/Retail-12.1.5-blueviolet">
-  <img alt="Forever" src="https://img.shields.io/badge/Forever-blue">
-  <img alt="Classic" src="https://img.shields.io/badge/Classic-Era%20%7C%20Anniversary%20%7C%20MoP-orange">
+  <img alt="Forever" src="https://img.shields.io/badge/Forever-1.60.1-blue">
+  <img alt="Classic" src="https://img.shields.io/badge/Classic-Era%20%7C%20Anniversary%20%7C%20MoP-5.5.4-orange">
   <img alt="No dependencies" src="https://img.shields.io/badge/dependencies-none-success">
 </p>
 
