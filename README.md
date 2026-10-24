@@ -89,13 +89,9 @@ A golden theatre mask on your minimap. Left-click opens the soundboard, right-cl
 
 ## Screenshots
 
-| The soundboard | The emote builder |
+| The soundboard | Options |
 |---|---|
-| ![Soundboard](docs/screenshots/soundboard.png) | ![Builder](docs/screenshots/builder.png) |
-
-| Options | Minimap button |
-|---|---|
-| ![Options](docs/screenshots/options.png) | ![Minimap](docs/screenshots/minimap.png) |
+| ![Soundboard](docs/screenshots/soundboard.png) | ![Options](docs/screenshots/options.png) |
 
 ## Installation
 
