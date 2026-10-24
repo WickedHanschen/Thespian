@@ -151,7 +151,7 @@ Standard emotes (`WAVE`, `BOW`, …) simply act on your current target, exactly 
 | Game | Version | Interface |
 |---|---|---|
 | Retail | 12.1.x | 120000 – 120007 |
-| Forever | 1.60.x | 
+| Forever | 1.60.x | 16001 |
 | Mists of Pandaria Classic | 5.5.x | 50503, 50504 |
 | TBC Classic Anniversary | 2.5.x | 20504, 20505 |
 | Classic Era (Hardcore, Seasonal) | 1.15.x | 11507 – 11509 |
