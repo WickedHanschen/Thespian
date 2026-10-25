@@ -17,6 +17,8 @@
   <img alt="Forever" src="https://img.shields.io/badge/Forever-1.60.1-blue">
   <img alt="Classic" src="https://img.shields.io/badge/Classic%20Era-5.5.4-orange">
   <img alt="No dependencies" src="https://img.shields.io/badge/dependencies-none-success">
+  <img alt="Vibecoded" src="https://img.shields.io/badge/vibecoded-claude-orange?logo=claude&logoColor=orange">
+
 </p>
 
 ---
