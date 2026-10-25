@@ -1,7 +1,7 @@
 --[[---------------------------------------------------------------------------
   Thespian
   One-click roleplay emotes with support for custom emotes.
-  Works on Retail, Forever. Classic Era / Hardcore / Seasonal, Anniversary and MoP Classic.
+  Works on Retail, Forever, Classic Era / Hardcore / Seasonal, Anniversary and MoP Classic.
   Slash commands: /thespian  (aliases: /rpe, /rpemotes)
 ---------------------------------------------------------------------------]]--
 
@@ -125,6 +125,29 @@ local function StripMe(text)
     return text
 end
 
+-- Chat messages are capped at 255 bytes. Cutting at a byte count can split a
+-- multi-byte character (à, é, ö...) and the server rejects invalid UTF-8,
+-- so trim back to the start of the last complete character.
+local MAX_MESSAGE_BYTES = 255
+
+local function TruncateUTF8(text, maxBytes)
+    if #text <= maxBytes then return text end
+    text = text:sub(1, maxBytes)
+    for i = #text, math.max(1, #text - 3), -1 do
+        local b = text:byte(i)
+        if b < 0x80 then
+            return text                           -- ends on an ASCII character
+        elseif b >= 0xC0 then                     -- lead byte of the last char
+            local size = (b >= 0xF0 and 4) or (b >= 0xE0 and 3) or 2
+            if #text - i + 1 < size then
+                return text:sub(1, i - 1)         -- incomplete: drop it
+            end
+            return text
+        end
+    end
+    return text
+end
+
 local function Perform(kind, text)
     if not text or text == "" then return end
 
@@ -135,7 +158,7 @@ local function Perform(kind, text)
 
     text = ExpandTokens(text)
     if kind == "emote" then text = StripMe(text) end
-    text = text:sub(1, 255)
+    text = TruncateUTF8(text, MAX_MESSAGE_BYTES)
 
     local channel = TYPES[TYPE_INDEX[kind]].channel
     local send = (C_ChatInfo and C_ChatInfo.SendChatMessage) or SendChatMessage
@@ -790,7 +813,7 @@ local function BuildOptionsPanel()
     MakeSection(panel, "General", -80)
 
     MakeCheckbox(panel, "Show minimap button",
-        "Displays the book icon on your minimap. Drag it to reposition.", 16, -108,
+        "Displays the theatre-mask icon on your minimap. Drag it to reposition.", 16, -108,
         function() return not DB.minimap.hide end,
         function(v) DB.minimap.hide = not v; ApplySettings() end)
 

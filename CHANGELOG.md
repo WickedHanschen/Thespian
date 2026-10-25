@@ -2,6 +2,16 @@
 
 All notable changes to **Thespian** are documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses [Semantic Versioning](https://semver.org/).
+
+## [1.0.1] - 2026-10-25
+
+### Changed
+- Updated for Retail patch 12.1.5 and TBC Classic Anniversary 2.5.6, so the addon is no longer flagged as out of date.
+
+### Fixed
+- Long emotes with accented or non-Latin letters (à, é, ö, Cyrillic...) could be cut in the middle of a character and fail to send. They are now shortened cleanly.
+- The minimap option now describes the icon correctly (a theatre mask, not a book).
+
 ## [1.0.0] - 2026-10-24
 
 First public release. Press play on your character.
